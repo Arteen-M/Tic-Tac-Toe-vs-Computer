@@ -8,4 +8,4 @@ The computer follows a simple strategy:
 5. If a Corner is empty, play that Corner
 6. If an Edge is empty, play that Edge
 
-It's a simple strategy, but is unbeatable (you will always at least tie)
+It's a simple strategy, but it's almost unbeatable (You can fork the AI to death)
