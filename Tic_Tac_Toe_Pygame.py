@@ -11,6 +11,7 @@ HEIGHT = 300
 WIDTH = HEIGHT
 
 display = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Tic Tac Toe")
 
 board = [['N', 'N', 'N'], ['N', 'N', 'N'], ['N', 'N', 'N']]
 COM = Tic_Tac_Toe_COM.COM(board)
