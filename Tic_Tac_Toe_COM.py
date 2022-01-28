@@ -110,7 +110,7 @@ class COM:
                 if count > 1:
                     return [x, y]
 
-                print('', self.sim_board[0], '\n', self.sim_board[1], '\n', self.sim_board[2], '\n')
+                # print('', self.sim_board[0], '\n', self.sim_board[1], '\n', self.sim_board[2], '\n')
 
     def check_fork_loss(self, board):
         for x in range(0, 3):
@@ -153,7 +153,7 @@ class COM:
                 if count > 1:
                     return [x, y]
 
-                print('', self.sim_board[0], '\n', self.sim_board[1], '\n', self.sim_board[2], '\n')
+                # print('', self.sim_board[0], '\n', self.sim_board[1], '\n', self.sim_board[2], '\n')
 
     # CHECK IF THE CENTER TILE IS AVAILABLE
     def center(self):
